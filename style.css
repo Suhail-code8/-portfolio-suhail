@@ -20,7 +20,7 @@
   color: black !important;
 }
 .hover-effect {
-  background-color: #212529; /* dark by default */
+  background-color: #212529;
   transition: all 0.3s ease;
   color: white;
 }
@@ -48,5 +48,5 @@
 
 .project-img {
   border: 2px solid rgb(224, 182, 182);
-  border-radius: 8px; /* Optional for smooth corners */
+  border-radius: 8px;
 }
