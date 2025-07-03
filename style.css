@@ -1,0 +1,52 @@
+
+.hover-effect {
+  transition: all 0.3s ease;
+  background-color: #181c20; 
+  color: white;
+  border: 2px solid transparent;
+}
+
+.hover-effect:hover {
+  background-color: white;
+  color: black;
+  transform: translateY(-10px);
+  border-color: #dc3545;
+}
+
+
+.hover-effect:hover h4,
+.hover-effect:hover p
+ {
+  color: black !important;
+}
+.hover-effect {
+  background-color: #212529; /* dark by default */
+  transition: all 0.3s ease;
+  color: white;
+}
+
+.hover-effect:hover {
+  background-color: white !important;
+  color: black !important;
+  transform: translateY(-5px);
+}
+
+.hover-effect:hover h5,
+.hover-effect:hover p,
+.hover-effect:hover  {
+  color: black !important;
+}
+
+.hover-effect:hover .btn-outline-light {
+  border-color: black;
+  color: rgb(109, 105, 105);
+}
+
+.project-card{
+    .image{border:#181c20;}
+}
+
+.project-img {
+  border: 2px solid rgb(224, 182, 182);
+  border-radius: 8px; /* Optional for smooth corners */
+}
